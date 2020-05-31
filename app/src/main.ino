@@ -531,7 +531,7 @@ class Device
       {
         JSONencoder[sensors[i]->name] = sensors[i]->getData();
       }
-      JSONencoder["token"] = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJsb25ncGhhbSIsInVzZXJfaWQiOjIsImlhdCI6MTU4OTcwOTUyMX0.kMaJh-meTBf5gmOqFgPZAj7Xpox7QFdnjGWPuRwGN4A";
+      JSONencoder["token"] = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJsb25ncGhhbSIsInVzZXJfaWQiOjIsImlhdCI6MTU5MDkxOTAyM30.eSDqJY_3J_Grdr0JdjOVRFS3nbETmf3_yR-NNXRW-AQ";
       JSONencoder["device_id"] = macAdd;
       char JSONmessageBuffer[500];
       JSONencoder.printTo(JSONmessageBuffer, sizeof(JSONmessageBuffer));
